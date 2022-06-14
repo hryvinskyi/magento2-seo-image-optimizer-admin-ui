@@ -1,10 +1,11 @@
 {
   "name": "hryvinskyi/magento2-seo-image-optimizer-admin-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "N/A",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*",
+    "hryvinskyi/magento2-seo-admin-ui": "1.0.*",
     "hryvinskyi/magento2-seo-image-optimizer": "1.0.*"
   },
   "license": [
