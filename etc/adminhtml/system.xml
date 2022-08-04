@@ -23,15 +23,25 @@
                         <field id="enabled">1</field>
                     </depends>
                 </field>
-                <field id="enabled_webp" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0"
+                <field id="enabled_webp" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="0"
                        showInStore="0">
                     <label>Enabled WebP</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="enabled_avif" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0"
+                <field id="enabled_avif" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="0"
                        showInStore="0">
                     <label>Enabled Avif</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="exclude_image_expression" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="0"
+                       showInStore="0">
+                    <label>Exclude image expression</label>
+                    <comment>Comma separated</comment>
+                </field>
+                <field id="exclude_picture_expression" translate="label" type="text" sortOrder="60" showInDefault="1" showInWebsite="0"
+                       showInStore="0">
+                    <label>Exclude picture expression</label>
+                    <comment>Comma separated</comment>
                 </field>
                 <field id="debug" translate="label" type="select" sortOrder="10000" showInDefault="1" showInWebsite="0"
                        showInStore="0">
