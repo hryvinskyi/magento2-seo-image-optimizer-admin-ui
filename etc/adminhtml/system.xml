@@ -33,15 +33,15 @@
                     <label>Enabled Avif</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="exclude_image_expression" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="0"
+                <field id="exclude_image_expression" translate="label" type="textarea" sortOrder="50" showInDefault="1" showInWebsite="0"
                        showInStore="0">
                     <label>Exclude image expression</label>
-                    <comment>Comma separated</comment>
+                    <comment>New line separated</comment>
                 </field>
-                <field id="exclude_picture_expression" translate="label" type="text" sortOrder="60" showInDefault="1" showInWebsite="0"
+                <field id="exclude_picture_expression" translate="label" type="textarea" sortOrder="60" showInDefault="1" showInWebsite="0"
                        showInStore="0">
                     <label>Exclude picture expression</label>
-                    <comment>Comma separated</comment>
+                    <comment>New line separated</comment>
                 </field>
                 <field id="debug" translate="label" type="select" sortOrder="10000" showInDefault="1" showInWebsite="0"
                        showInStore="0">
